@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品集展示 | Y2 Cloud Art 雲藝美甲美睫</title>
+    <meta name="description" content="瀏覽 Y2 Cloud Art 雲藝美甲美睫的精選作品集，包含經典單色、奢華暈染美甲、極緻羽感美睫嫁接與精緻作品藝廊。">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="index.html">Y2 Cloud Art <span>雲藝美甲美睫</span></a>
+        </div>
+        <nav>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul id="navMenu">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="services.html">服務價目</a></li>
+                <li><a href="gallery.html" class="active">作品集</a></li>
+                <li><a href="course.html">美業教學</a></li>
+                <li><a href="column.html">美甲專欄</a></li>
+                <li><a href="contact.html">聯絡預約</a></li>
+            </ul>
+        </nav>
+        <div class="header-socials">
+            <a href="https://www.instagram.com/weimei1098/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/weimei088/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://line.me/R/ti/p/@bmmi8j1" target="_blank" title="LINE 預約"><i class="fab fa-line"></i></a>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <div class="page-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero_bg.png');">
+        <h1>靈感藝廊與作品展演</h1>
+        <p>每一款作品都是美甲師與顧客共同創作的專屬藝術</p>
+    </div>
+
+    <section class="section-padding">
+        <!-- Filter Controls -->
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">全部作品</button>
+            <button class="filter-btn" data-filter="nail">凝膠美甲</button>
+            <button class="filter-btn" data-filter="lash">羽感美睫</button>
+            <button class="filter-btn" data-filter="blog">時尚特別款</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid-full" id="galleryGrid">
+            <div class="gallery-card-item" data-category="nail">
+                <div class="gallery-card-img">
+                    <img src="images/nail_gallery_1.png" alt="經典香檳金暈染美甲">
+                    <div class="gallery-card-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <h4>法式香檳金暈染</h4>
+                        <p>凝膠美甲</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-card-item" data-category="nail">
+                <div class="gallery-card-img">
+                    <img src="images/nail_service.png" alt="貓眼光感精緻美甲">
+                    <div class="gallery-card-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <h4>晶石貓眼極緻光感</h4>
+                        <p>凝膠美甲</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-card-item" data-category="lash">
+                <div class="gallery-card-img">
+                    <img src="images/lash_gallery_1.png" alt="日式 3D 羽感自然嫁接">
+                    <div class="gallery-card-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <h4>日式 3D 羽感嫁接</h4>
+                        <p>羽感美睫</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-card-item" data-category="lash">
+                <div class="gallery-card-img">
+                    <img src="images/lash_service.png" alt="韓式 6D 多根濃密美睫">
+                    <div class="gallery-card-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <h4>韓式 6D 多根電眼</h4>
+                        <p>羽感美睫</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-card-item" data-category="blog">
+                <div class="gallery-card-img">
+                    <img src="images/blog_1.png" alt="流行花藝暈染造型">
+                    <div class="gallery-card-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <h4>極緻微雕花藝造型</h4>
+                        <p>時尚特別款</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-card-item" data-category="blog">
+                <div class="gallery-card-img">
+                    <img src="images/blog_2.png" alt="高級幾何金箔款式">
+                    <div class="gallery-card-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <h4>金箔幾何奢華感</h4>
+                        <p>時尚特別款</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <p style="margin-bottom: 1.5rem; color: #666;">喜歡這些款式嗎？隨時傳圖至 LINE 客服為您預估優惠價格！</p>
+            <a href="https://line.me/R/ti/p/@bmmi8j1" target="_blank" class="btn-primary"><i class="fab fa-line"></i> 傳圖諮詢專屬款式</a>
+        </div>
+    </section>
+
+    <!-- Image Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" alt="大圖預覽">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Y2 Cloud Art</h3>
+                <p>桃園中壢專業美甲美睫沙龍。用極致匠心，寵愛完美的您。</p>
+            </div>
+            <div class="footer-col">
+                <h4>快速連結</h4>
+                <ul>
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="services.html">服務價目</a></li>
+                    <li><a href="course.html">美業教學</a></li>
+                    <li><a href="contact.html">聯絡諮詢</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>社群追蹤</h4>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/weimei1098/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="https://www.facebook.com/weimei088/" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                    <a href="https://line.me/R/ti/p/@bmmi8j1" target="_blank"><i class="fab fa-line"></i> LINE 帳號</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Y2 Cloud Art 雲藝美甲美睫. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating LINE Button -->
+    <a href="https://line.me/R/ti/p/@bmmi8j1" target="_blank" class="floating-line-btn" title="LINE 快速預約">
+        <i class="fab fa-line"></i>
+        <span>線上預約</span>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

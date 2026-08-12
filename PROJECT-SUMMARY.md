@@ -21,13 +21,13 @@
 *   **店名**：Y2雲藝美甲美睫 (原：唯美主義)
 *   **地址**：桃園市中壢區環中東路57號2樓 (替代預設的大安區地址)
 *   **電話**：03-285-0151 (替代 `02-2345-6789`)
-*   **LINE ID**：@bmmi8j1 (替代 `@y2cloudart`)
+*   **LINE ID**：@vup2609a (替代 `@y2cloudart`)
 *   **營業時間**：10:00 – 20:00
 
 ## 🔗 社群超連結 (正確連結)
 *   **Instagram**: `https://www.instagram.com/weimei1098/`
 *   **Facebook**: `https://www.facebook.com/weimei088/`
-*   **LINE 預約**: `https://line.me/R/ti/p/@bmmi8j1`
+*   **LINE 預約**: `https://line.me/R/ti/p/@vup2609a`
 *   **官網**: `https://weimei088.com/`
 
 > [!NOTE]
